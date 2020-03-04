@@ -34,9 +34,9 @@
                 };
 
                 map = new google.maps.Map(
-            document.getElementById('map'), {zoom: 4, center: locale});
+            document.getElementById('map'), {zoom: 11, center: locale});
             var marker = new google.maps.Marker({position: locale, map: map});
-            
+
             }, function() {
                 handleLocationError(true, infoWindow, map.getCenter());
             });
